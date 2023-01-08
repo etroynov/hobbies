@@ -7,7 +7,7 @@ type Props = {
   children: ReactNode;
 };
 
-export const Budge: FC<Props> = ({ children }) => (
+export const Badge: FC<Props> = ({ children }) => (
   <>
     <div className={cx(styles.badge, styles.badge__default)}>
       {children}

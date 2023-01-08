@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 
-import { Prizes, Card, Button } from '@/components'
+import { Prizes, Card, Button, Badge } from '@/components'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +17,7 @@ export default function Home() {
       <main className={inter.className}>
         <Button>test</Button> 
         <Card>Receive 3% royalty for every NFT reselling on the secondary market</Card>
+        <Badge>10000</Badge>
       </main>
     </>
   )
