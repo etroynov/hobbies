@@ -15,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={inter.className}>
+        <Prizes />
         <Button>test</Button> 
         <Card>Receive 3% royalty for every NFT reselling on the secondary market</Card>
         <Badge>10000</Badge>
