@@ -55,5 +55,29 @@ export const Badge: FC<Props> = ({ children }) => (
       <div className={cx (styles.col__2)}>launched</div>
       </div>
     </div>
+    <div className={cx( styles.badge__stages, styles.badge__stages__primary, styles.badge__stages__primary__1)}>
+    Discount 85%
+    </div>
+    <div className={cx( styles.badge__stages, styles.badge__stages__primary, styles.badge__stages__primary__2)}>
+    Discount 85%
+    </div>
+    <div className={cx( styles.badge__stages, styles.badge__stages__primary, styles.badge__stages__primary__3)}>
+    Discount 85%
+    </div>
+    <div className={cx( styles.badge__stages, styles.badge__stages__secondary, styles.badge__stages__secondary__1)}>
+    Discount 70%
+    </div>
+    <div className={cx( styles.badge__stages, styles.badge__stages__secondary, styles.badge__stages__secondary__2)}>
+    $ 300
+    </div>
+    <div className={cx( styles.badge__stages, styles.badge__stages__secondary, styles.badge__stages__secondary__3)}>
+    NOW
+    </div>
+    <div className={cx( styles.badge__stages, styles.badge__stages__primary, styles.badge__stages__primary__4)}>
+    + 1000 tokens
+    </div>
+    <div className={cx( styles.badge__stages, styles.badge__stages__primary, styles.badge__stages__primary__5)}>
+    85% discount 
+    </div>
   </div>
 );
