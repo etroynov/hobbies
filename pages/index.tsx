@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={inter.className}>
         <Prizes />
-        <Button>test</Button> 
+        <Button>test</Button>
         <Card>Receive 3% royalty for every NFT reselling on the secondary market</Card>
         <Badge>10000</Badge>
       </main>

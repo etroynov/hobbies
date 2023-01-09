@@ -14,3 +14,4 @@ export const Card: FC<Props> = ({ children }) => (
     <footer className={styles.card__footer}>Once you minted the NFT, you become the owner of it. If you decide to resell it later, you will enjoy the exclusive right to receive 5% royalty forever – for every reselling on the secondary market.</footer>
   </section>
 );
+

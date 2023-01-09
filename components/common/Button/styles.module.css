@@ -1,1 +1,55 @@
-.btn {}
+.btn {
+    width: 212px;
+    height: 52px;
+    padding: 16px 10px 16px 10px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn__primary {
+    border: none;
+    background: #0CFF8A;
+    color: #000000;
+}
+
+.btn__secondary {
+    border: 1px solid #0CFF8A;
+    background-color: transparent;
+    color: #0CFF8A;
+}
+
+.btn__disabled {
+    border: 1px solid #272A31;
+    background-color: transparent;
+    color: #FFFFFF
+}
+
+.btn__primary_xl {
+    height: 88px;
+}
+
+.btn__var {
+    padding: 11px 15px;
+    width: 174px;
+    height: 51px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn__var__primary {
+    color: #1A1D22;
+    background: #5CEE9C;
+}
+
+.btn__var__secondary {
+    color: #000000;
+    background: #FFFFFF;
+
+}
