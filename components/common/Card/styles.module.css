@@ -1,31 +1,16 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    padding: 32px;
-    gap: 32px;
-    background: #272A31;
-    border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  background: #272a31;
 }
 
-.card__header {}
-
-.card__title {
-    font-family: 'Circular Std';
-    font-weight: 500;
-    font-size: 14px;
-    color: #C6C6C6;
+.s {
+  padding: 16px;
+  border-radius: 16px;
 }
 
-.card__body {
-    font-weight: 700;
-    font-size: 24px;
-    color: #FFFFFF;
+.m {
+  padding: 32px;
+  gap: 32px;
+  border-radius: 24px;
 }
-
-.card__footer {
-    font-weight: 450;
-    font-size: 16px;
-    color: #FFFFFF;
-}
-
-.test {}

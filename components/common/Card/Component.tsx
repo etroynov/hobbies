@@ -1,17 +1,18 @@
-import type { FC, ReactNode } from 'react';
-import styles from './styles.module.css';
+import cx from "classnames";
+import type { FC, ReactNode } from "react";
+import styles from "./styles.module.css";
 
 type Props = {
+  header?: ReactNode;
   children: ReactNode;
-}
+  footer?: ReactNode;
+  size?: "s" | "m";
+};
 
-export const Card: FC<Props> = ({ children }) => (
-  <section className={styles.card}>
-    <header className={styles.card__header}>
-      <h2 className={styles.card__title}>Royalty</h2>
-    </header>
+export const Card: FC<Props> = ({ header, children, footer, size = "s" }) => (
+  <section className={cx(styles.card, styles[size])}>
+    {header ? <header className={styles.card__header}>{header}</header> : null}
     <section className={styles.card__body}>{children}</section>
-    <footer className={styles.card__footer}>Once you minted the NFT, you become the owner of it. If you decide to resell it later, you will enjoy the exclusive right to receive 5% royalty forever – for every reselling on the secondary market.</footer>
+    {footer ? <footer className={styles.card__footer}>{footer}</footer> : null}
   </section>
 );
-
