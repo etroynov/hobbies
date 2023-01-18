@@ -1,0 +1,33 @@
+.container {
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+  }
+}
+
+.fix {
+  width: 540px;
+}
+
+.info {
+  &__header {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 42px;
+  }
+
+  &__text {
+    color: var(--color-3);
+  }
+
+  &__cards {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__btn {
+    background-color: var(--color-6);
+    
+  }
+}
