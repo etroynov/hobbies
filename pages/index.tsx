@@ -1,9 +1,19 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
 
-import { Header, Prizes, Card, Button, Badge, Typography } from "@/components";
+import { Header, Footer, Prizes, Card, Badge, Typography } from "@/components";
 
-const inter = Inter({ subsets: ["latin"] });
+import {
+  LearnContainer,
+  GoalsContainer,
+  TeamContainer,
+  PartnersContainer,
+  FaqContainer,
+  StatsContainer,
+  CommunityContainer,
+  PlansContainer,
+  StagesContainer,
+  MintContainer,
+} from "../containers";
 
 export default function Home() {
   return (
@@ -14,17 +24,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={inter.className}>
+      <main>
         <Header />
         <Prizes />
-        <Typography>NTO (NFT token offering) gives you a chance to get popular tokens 3-6 times cheaper from its market price in the form of exclusive NFT.</Typography>
-        <Card>
-          <Typography>
-            Receive 3% royalty for every NFT reselling on the secondary market
-          </Typography>
-          
-        </Card>
-        <Badge>10000</Badge>
+        {/* <Badge>10000</Badge> */}
+        <MintContainer />
+        <StagesContainer />
+        <PlansContainer />
+        <StatsContainer />
+        <LearnContainer />
+        <GoalsContainer />
+        <TeamContainer />
+        <PartnersContainer />
+        <FaqContainer />
+        <CommunityContainer />
+        <Footer />
       </main>
     </>
   );

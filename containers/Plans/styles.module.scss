@@ -1,0 +1,27 @@
+.container {
+  &__header {
+    display: grid;
+    gap: 12px;
+    color: var(--base-invert-color);
+    margin-bottom: 56px;
+  }
+}
+
+.priceBlock {
+  display: grid;
+  gap: 32px;
+
+  &__list {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__item {
+    display: grid;
+    gap: 16px;
+  }
+}
+
+.placeholder {
+  margin-top: 72px;
+}

@@ -25,9 +25,15 @@
 }
 
 .variant_2 {
-  border: 1px solid #0cff8a;
+  color: var(--base-invert-color);
+  border: 1px solid var(--color-1);
   background-color: transparent;
-  color: #0cff8a;
+
+  &:hover {
+    color: #0cff8a;
+    border: 1px solid #0cff8a;
+    background-color: transparent;
+  }
 }
 
 .variant_3 {
@@ -36,6 +42,32 @@
   background-color: transparent;
 }
 
+.variant_4 {
+  background-color: var(--color-5);
+  box-shadow: 0;
+  border: none;
+}
+
+.variant_5 {
+  color: #0cff8a;
+  border: 1px solid #0cff8a;
+  background-color: transparent;
+
+  &:hover {
+    color: var(--base-invert-color);
+    border: 1px solid var(--color-1);
+    background-color: transparent;
+  }
+}
+
 .xl {
   height: 88px;
+}
+
+.block {
+  width: 100%;
+}
+
+.upper {
+  text-transform: uppercase;
 }

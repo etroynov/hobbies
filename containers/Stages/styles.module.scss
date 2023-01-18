@@ -1,0 +1,26 @@
+.container {
+  margin-bottom: 72px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+  }
+}
+
+.row {
+  display: flex;
+  gap: 100px;
+}
+
+.cards {
+  margin-bottom: 124px;
+}
+
+.info {
+  &__title {
+    color: var(--color-3);
+    margin-bottom: 42px;
+  }
+}

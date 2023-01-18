@@ -1,0 +1,10 @@
+.component {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  min-height: 325px;
+  padding: 24px;
+  background-color: var(--base-color);
+  border-radius: 16px;
+}

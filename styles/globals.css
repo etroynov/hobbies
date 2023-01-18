@@ -1,7 +1,14 @@
 :root {
-  --base-color: #1A1D22;
-  --base-invert-color: #FFFFFF;
-  --acent-color: #0CFF8A;
+  --color-1: #272a31;
+  --color-2: #32353c;
+  --color-3: #c6c6c6;
+  --color-4: #fff959;
+  --color-5: #5cee9c;
+  --color-6: #0cff8a;
+  --base-color: #1a1d22;
+  --base-invert-color: #ffffff;
+  --base-radius: 24px;
+  --accent-color: #0cff8a;
 }
 
 * {
@@ -13,7 +20,7 @@
 html,
 body {
   color: var(--base-invert-color);
-  font-size: 15px;
+  font: 15px "Circular Std", Verdana, sans-serif;
   background-color: var(--base-color);
 }
 

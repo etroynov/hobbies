@@ -1,0 +1,17 @@
+.container {
+  margin-bottom: 124px;
+  &__header {
+    margin-bottom: 48px;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  &__body {
+    display: grid;
+    gap: 12px;
+  }
+}

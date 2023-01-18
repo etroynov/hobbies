@@ -1,0 +1,84 @@
+.component {
+  margin: 0;
+}
+
+.variant {
+  &-1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  &-2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &-3 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  &-4 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  &-5 {
+    color: var(--accent-color);
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  &-6 {
+    color: var(--color-3);
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  &-7 {
+    color: var(--color-3);
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &-8 {
+    color: var(--base-invert-color);
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  &-9 {
+    color: var(--base-invert-color);
+    font-size: 96px;
+    line-height: 120px;
+  }
+
+  &-10 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  &-11 {
+    color: var(--color-6);
+    font-size: 96px;
+    line-height: 120px;
+  }
+
+  &-12 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  &-13 {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.upper {
+  text-transform: uppercase;
+}

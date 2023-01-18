@@ -1,0 +1,48 @@
+.component {
+  &__title {
+    font-size: 96px;
+    line-height: 120px;
+    color: var(--base-invert-color)
+  }
+
+  &__header {
+    margin-bottom: 46px;
+  }
+
+  &__navbar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 56px;
+  }
+
+  &__body {
+    padding: 16px;
+    background-color: var(--color-1);
+    border-radius: 32px;
+  }
+}
+
+.card {
+  &__title {
+    color: var(--color-3);
+  }
+
+  &__text {
+    margin-bottom: 9px;
+  }
+}
+
+.row,
+.row2 {
+  display: flex;
+  gap: 16px;
+}
+
+.row {
+  margin-bottom: 16px;
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}

@@ -1,0 +1,23 @@
+.container {
+  margin-bottom: 176px;
+  &__header {
+    margin-bottom: 60px;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+    font-size: 48px;
+  }
+
+  &__description {
+    color: var(--color-3);
+  }
+
+  &__body {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 220px);
+    text-align: center;
+    gap: 190px 0;
+  }
+}

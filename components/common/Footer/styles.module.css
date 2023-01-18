@@ -1,0 +1,50 @@
+.footer {
+  padding: 80px 70px;
+  background-color: var(--color-2);
+  border-radius: 64px;
+}
+.component {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  align-items: center;
+  gap: 90px;
+  padding: 26px 0 36px 0;
+}
+
+.metamask {
+  display: block;
+  width: 20px;
+  height: 20px;
+
+  background: url('./metamask_logo.svg') center no-repeat;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu__item a {
+  color: var(--base-invert-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  color: var(--color-3);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.year {
+  color: var(--color-3);
+}

@@ -1,0 +1,19 @@
+.component {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+    background-color: var(--color-1);
+    border-radius: 24px;
+    cursor: pointer;
+  }
+
+  &__btn {
+    background: transparent;
+    border: none;
+  }
+
+  &__body {
+    padding: 16px 32px;
+  }
+}

@@ -1,0 +1,15 @@
+.component {
+  padding: 24px 24px 85px 24px;
+  border: 1px solid var(--color-1);
+  border-radius: var(--base-radius);
+}
+
+.extra {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.header {
+  margin-bottom: 8px;
+}

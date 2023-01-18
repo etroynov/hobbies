@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+  border: 2px solid var(--color-5);
+  border-radius: var(--base-radius);
+
+  &__text {
+    color: var(--base-invert-color);
+  }
+
+  &__btn {
+    text-transform: uppercase;
+  }
+}
