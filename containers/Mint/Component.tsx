@@ -27,7 +27,7 @@ export const MintContainer: FC = () => (
       <div className={styles.info__cards}>
         <Card size="sm2">1. You need your MetaMask wallet</Card>
         <Card size="sm2">2. You can buy 1 Chow at a time.</Card>
-        <Card size="sm2">3. Each stage the price goes up to 0.05 <br /> cents or $50b</Card>
+        <Card size="sm2">3. Each stage the price goes up to 0.05 cents or $50b</Card>
         <button className={styles.info__btn}>Mint now</button>
       </div>
     </div>

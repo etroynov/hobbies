@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { Header, Footer, Prizes, Card, Badge, Typography } from "@/components";
+import { Header, Footer } from "@/components";
 
 import {
   LearnContainer,
@@ -13,6 +13,12 @@ import {
   PlansContainer,
   StagesContainer,
   MintContainer,
+  UseContainer,
+  RewardContainer,
+  TryContainer,
+  HistoryContainer,
+  BadgesContainer,
+  PrizesContainer,
 } from "../containers";
 
 export default function Home() {
@@ -26,8 +32,12 @@ export default function Home() {
       </Head>
       <main>
         <Header />
-        <Prizes />
-        {/* <Badge>10000</Badge> */}
+        <PrizesContainer />
+        <BadgesContainer />
+        <HistoryContainer />
+        <TryContainer />
+        <RewardContainer />
+        <UseContainer />
         <MintContainer />
         <StagesContainer />
         <PlansContainer />
