@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 type Props = {
   tag?: "div" | "p" | "span" | "h1" | "h2" | "h3";
-  variant?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13;
+  variant?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14;
   bold?: boolean;
   upper?: boolean;
   children: ReactNode;

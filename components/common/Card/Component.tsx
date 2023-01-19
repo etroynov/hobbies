@@ -6,7 +6,7 @@ type Props = {
   header?: ReactNode;
   children: ReactNode;
   footer?: ReactNode;
-  size?: "s" | "sm" | "sm2" | "m" | "xxl";
+  size?: "s" | "sm" | "sm2" | "m" | "md" | "xxl";
   className?: string;
 };
 
