@@ -18,37 +18,37 @@ export const StatsContainer = () => (
             <ul className={styles.list}>
               <li className="list__item">
                 <Typography variant={8}>$1B</Typography>
-                <Typography variant={3} className={styles.list__text}>
+                <Typography variant={2} className={styles.list__text}>
                   Market cap of total
                 </Typography>
               </li>
               <li className="list__item">
                 <Typography variant={8}>$112M</Typography>
-                <Typography variant={3} className={styles.list__text}>
+                <Typography variant={2} className={styles.list__text}>
                   Market cap of issued
                 </Typography>
               </li>
               <li className="list__item">
                 <Typography variant={8}>$0.9</Typography>
-                <Typography variant={3} className={styles.list__text}>
+                <Typography variant={2} className={styles.list__text}>
                   Current price
                 </Typography>
               </li>
               <li className="list__item">
                 <Typography variant={8}>$1B</Typography>
-                <Typography variant={3} className={styles.list__text}>
+                <Typography variant={2} className={styles.list__text}>
                   Total supply
                 </Typography>
               </li>
               <li className="list__item">
                 <Typography variant={8}>$0.2</Typography>
-                <Typography variant={3} className={styles.list__text}>
+                <Typography variant={2} className={styles.list__text}>
                   IDO price
                 </Typography>
               </li>
               <li className="list__item">
                 <Typography variant={8}>$40M+</Typography>
-                <Typography variant={3} className={styles.list__text}>
+                <Typography variant={2} className={styles.list__text}>
                   Volume 90d
                 </Typography>
               </li>

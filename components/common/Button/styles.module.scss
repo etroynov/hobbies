@@ -20,7 +20,7 @@
 
 .variant_1 {
   border: none;
-  background: #0cff8a;
+  background:  var(--accent-color);
   color: #000000;
 }
 
@@ -30,8 +30,8 @@
   background-color: transparent;
 
   &:hover {
-    color: #0cff8a;
-    border: 1px solid #0cff8a;
+    color:  var(--accent-color);
+    border: 1px solid  var(--accent-color);
     background-color: transparent;
   }
 }
@@ -43,14 +43,14 @@
 }
 
 .variant_4 {
-  background-color: var(--color-5);
+  background-color: var(--accent-color);
   box-shadow: 0;
   border: none;
 }
 
 .variant_5 {
-  color: #0cff8a;
-  border: 1px solid #0cff8a;
+  color:  var(--accent-color);
+  border: 1px solid  var(--accent-color);
   background-color: transparent;
 
   &:hover {

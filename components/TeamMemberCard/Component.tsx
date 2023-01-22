@@ -32,7 +32,7 @@ export const TeamMemberCard: FC<Props> = ({
         {title}
       </Typography>
     </header>
-    <Typography tag="div" variant={3}>
+    <Typography tag="div" variant={2}>
       {children}
     </Typography>
   </div>

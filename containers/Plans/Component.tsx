@@ -24,7 +24,7 @@ export const PlansContainer: FC = () => (
               className={styles.priceBlock__item}
               header={<Typography variant={10}>Product Enhancement</Typography>}
             >
-              <Typography variant={3}>
+              <Typography variant={2}>
                 $6m to fast-track product roll-out thereby ensuring a market
                 lead, including B2B complete white label offering
               </Typography>
@@ -37,7 +37,7 @@ export const PlansContainer: FC = () => (
                 <Typography variant={10}>Customer Acquisition</Typography>
               }
             >
-              <Typography variant={3}>
+              <Typography variant={2}>
                 $12m to acquire a minimum of 2m registered users and 100 new B2B
                 white label customers
               </Typography>
@@ -48,7 +48,7 @@ export const PlansContainer: FC = () => (
               className={styles.priceBlock__item}
               header={<Typography variant={10}>Token Management</Typography>}
             >
-              <Typography variant={3}>
+              <Typography variant={2}>
                 $15m management of token liquidity including the listing on
                 leading exchanges
               </Typography>

@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import { Block, Badge, Card, Typography } from "@/components";
+import { Block, Badge, Card, Typography, NFTSelect } from "@/components";
 
 import styles from "./styles.module.scss";
 
@@ -7,7 +7,7 @@ export const PrizesContainer: FC = () => (
   <Block className={styles.container}>
     <div className="container">
       <div className={styles.row}>
-        <div className="col">
+        <div>
           <img
             alt=""
             src="/assets/img/main_logo.svg"
@@ -17,7 +17,7 @@ export const PrizesContainer: FC = () => (
           <div className={styles.meta}>
             <div className={styles.container__list}>
               <Card>
-                <Typography variant={3} className={styles.badge__text}>
+                <Typography variant={2} className={styles.badge__text}>
                   Get a cool, rare or super rare Chobby NFT
                 </Typography>
                 <Badge variant={2}>+ 1000 tokens</Badge>
@@ -26,13 +26,13 @@ export const PrizesContainer: FC = () => (
                 </Typography>
               </Card>
               <Card>
-                <Typography variant={3}>
+                <Typography variant={2}>
                   CHO tokens in each Chobby NFT have different lockups and
                   vesting periods
                 </Typography>
               </Card>
               <Card>
-                <Typography variant={3}>
+                <Typography variant={2}>
                   Over 20% of NFT’s have short or no lockups\vestings, casbacks
                   and prize perks up to 100 000$
                 </Typography>
@@ -55,7 +55,7 @@ export const PrizesContainer: FC = () => (
           </div>
         </div>
 
-        <div className="col">
+        <div>
           <Card className={styles.info} size="md">
             <header className={styles.info__header}>
               <div className={styles.info__logos}>
@@ -102,6 +102,8 @@ export const PrizesContainer: FC = () => (
                 </div>
               </div>
             </div>
+
+            <NFTSelect />
           </Card>
         </div>
       </div>
