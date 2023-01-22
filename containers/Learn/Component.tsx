@@ -6,7 +6,7 @@ export const LearnContainer = () => (
   <Block>
     <div className="container">
       <div className={styles.container}>
-        <Typography variant={4} className={styles.container__text}>
+        <Typography variant="28_36" className={styles.container__text}>
           How the metafi solution works
         </Typography>
 

@@ -6,12 +6,16 @@ type Props = {
   header?: ReactNode;
   children: ReactNode;
   footer?: ReactNode;
-  size?: "s" | "sm" | "sm2" | "m" | "md" | "xxl";
+  size?: "s" | "sm" | "sm2" | "m" | "md" | "md2" | "xxl";
   className?: string;
 };
 
 export const Card: FC<Props> = ({
-  header, children, footer, size = "s", className
+  header,
+  children,
+  footer,
+  size = "s",
+  className,
 }) => (
   <section className={cx(styles.card, styles[size], className)}>
     {header ? <header className={styles.card__header}>{header}</header> : null}

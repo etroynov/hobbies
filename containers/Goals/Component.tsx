@@ -33,15 +33,15 @@ export const GoalsContainer: FC = () => (
         <div className={styles.row}>
           <GoalCard
             header={
-              <Typography variant={6}>
+              <Typography variant="20_26" color={3}>
                 NTO <br /> development
               </Typography>
             }
           >
-            <Typography variant={5} className={styles.card__text}>
+            <Typography variant="20_26" color={2} className={styles.card__text}>
               NTO Wallet
             </Typography>
-            <Typography variant={2} className={styles.card__title}>
+            <Typography variant="16_24" className={styles.card__title}>
               Development of Choise.com’s unique and simple <br /> decentralized
               wallet, allowing users to store their <br /> valuable NFTs.
             </Typography>
@@ -49,13 +49,19 @@ export const GoalsContainer: FC = () => (
 
           <GoalCard
             header={
-              <Typography variant={6}>
+              <Typography variant="20_26" color={3}>
                 Choise.com <br /> development
               </Typography>
             }
           >
-            <Typography variant={5} className={styles.card__text}>
-              New B2B App/Web App <br />
+            <Typography
+              variant="20_26"
+              className={styles.card__text}
+              color={2}
+            >
+              New B2B App/Web App
+              <br />
+              <br />
               B2B Asset Tokens
             </Typography>
           </GoalCard>
@@ -64,26 +70,26 @@ export const GoalsContainer: FC = () => (
           <GoalCard>
             <div className={styles.row3}>
               <div>
-                <Typography variant={6}>
+                <Typography variant="20_26" color={3}>
                   Power-ups for <br /> Choby holders
                 </Typography>
               </div>
 
               <div>
-                <Typography variant={5}>
+                <Typography variant="20_26" color={2} className={styles.text3}>
                   Choby <br /> Drop
                 </Typography>
-                <Typography variant={7}>
-                  100 Chobies drop for participants <br /> of the first-ever
-                  NTO.
+                <Typography variant="16_24">
+                  100 Chobies drop for participants <br />
+                  of the first-ever NTO.
                 </Typography>
               </div>
 
               <div>
-                <Typography variant={5}>
+                <Typography variant="20_26" color={2} className={styles.text3}>
                   Choby <br /> Merch
                 </Typography>
-                <Typography variant={7}>
+                <Typography variant="16_24">
                   Cool, in-trend, and high-quality <br /> merchandise with your
                   own Choby or <br /> Chobies to show off on the streets, <br />{" "}
                   with worldwide shipping.

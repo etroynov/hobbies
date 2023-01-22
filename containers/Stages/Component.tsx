@@ -24,7 +24,7 @@ export const StagesContainer: FC = () => (
         <div className={styles.info}>
           <div className={styles.row}>
             <div className="col">
-              <Typography variant={4} className={styles.info__title}>
+              <Typography variant="28_36" className={styles.info__title}>
                 Choise.com is the leading earn <br /> marketplace
               </Typography>
               <Typography variant={12}>

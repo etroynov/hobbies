@@ -1,0 +1,17 @@
+.component {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: max-content 1fr;
+  align-items: flex-start;
+}
+
+.user {
+  display: flex;
+  text-align: right;
+  align-items: center;
+  gap: 24px;
+
+  &__text {
+    text-align: justify;
+  }
+}

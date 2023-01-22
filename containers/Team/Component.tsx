@@ -8,7 +8,7 @@ export const TeamContainer = () => (
     <div className="container">
       <header className={styles.container__header}>
         <Typography tag="h2">Powered by THE OLDEST PROS</Typography>
-        <Typography variant={2} upper={true}>meet the team</Typography>
+        <Typography variant="16_24" upper={true}>meet the team</Typography>
       </header>
 
       <div className={styles.container__body}>

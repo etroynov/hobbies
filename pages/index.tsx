@@ -19,6 +19,11 @@ import {
   HistoryContainer,
   BadgesContainer,
   PrizesContainer,
+  CardsContainer,
+  DirectorContainer,
+  PerksContainer,
+  TradingContainer,
+  PoolContainer,
 } from "../containers";
 
 export default function Home() {
@@ -33,6 +38,11 @@ export default function Home() {
       <main>
         <Header />
         <PrizesContainer />
+        <CardsContainer />
+        <DirectorContainer />
+        <TradingContainer />
+        <PerksContainer />
+        <PoolContainer />
         <BadgesContainer />
         <HistoryContainer />
         <TryContainer />

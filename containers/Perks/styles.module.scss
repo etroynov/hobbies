@@ -1,0 +1,40 @@
+.container {
+  margin-bottom: 0;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+
+  &__body {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__col {
+    position: relative;
+  }
+}
+
+.second {
+  padding-top: 25px;
+  text-align: right;
+}
+
+.item {
+  &__1 {
+    position: relative;
+    top: -77px;
+  }
+
+  &__2 {
+    position: relative;
+    top: -50px;
+  }
+
+  &__3 {
+    position: relative;
+    top: -18px;
+  }
+}

@@ -4,7 +4,7 @@ import type { FC, ReactNode } from "react";
 import styles from "./styles.module.scss";
 
 type Props = {
-  type?: "variant_1" | "variant_2" | "variant_3" | "variant_4" | "variant_5";
+  type?: "variant_1" | "variant_2" | "variant_3" | "variant_4" | "variant_5" | "variant_6";
   disabled?: boolean;
   size?: "xl";
   className?: string;

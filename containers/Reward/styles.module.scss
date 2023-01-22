@@ -1,7 +1,41 @@
 .container {
+  &__header {
+    margin-bottom: 26px;
+  }
+
   &__logo {
     width: 100%;
     height: 287px;
     background: url("/assets/img/reward_logo.svg");
+  }
+
+  &__body {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 56px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.row1 {
+  display: flex;
+  gap: 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  gap: 32px;
+
+  &__title {
+    margin-bottom: 16px;
   }
 }

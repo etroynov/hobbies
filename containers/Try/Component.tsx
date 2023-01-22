@@ -7,23 +7,19 @@ export const TryContainer: FC = () => (
   <Block>
     <div className="container">
       <header className={styles.container__header}>
-        <Typography variant={9}>
+        <Typography variant="92_96">
           Try to get favorite <br /> Chobby
         </Typography>
       </header>
 
       <div className={styles.row}>
-        <div className={styles.container__cards}>
-          <img src="/assets/img/try_cards.svg" width="100%" alt="" />
-        </div>
-        <div>
-          <img src="/assets/img/item_1.png" width="100%" alt="" />
-        </div>
+        <img src="/assets/img/try_cards.png" width="100%" alt="" />
+        <img src="/assets/img/item_1.png" width="100%" alt="" />
       </div>
     </div>
 
     <div>
-      <img src="/assets/img/try_cards_1.png" alt="" />
+      <img src="/assets/img/try_cards_1.png" width="100%" alt="" />
       <div className={styles.container__controls}>
         <Button type="variant_4" upper={true}>View all gallery</Button>
       </div>

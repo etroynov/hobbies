@@ -17,22 +17,22 @@ export const PrizesContainer: FC = () => (
           <div className={styles.meta}>
             <div className={styles.container__list}>
               <Card>
-                <Typography variant={2} className={styles.badge__text}>
+                <Typography variant="16_24" className={styles.badge__text}>
                   Get a cool, rare or super rare Chobby NFT
                 </Typography>
-                <Badge variant={2}>+ 1000 tokens</Badge>
-                <Typography variant={13} className={styles.badge__text2}>
+                <Badge variant="16_24">+ 1000 tokens</Badge>
+                <Typography variant="13_16" className={styles.badge__text2}>
                   in one mint
                 </Typography>
               </Card>
               <Card>
-                <Typography variant={2}>
+                <Typography variant="16_24">
                   CHO tokens in each Chobby NFT have different lockups and
                   vesting periods
                 </Typography>
               </Card>
               <Card>
-                <Typography variant={2}>
+                <Typography variant="16_24">
                   Over 20% of NFT’s have short or no lockups\vestings, casbacks
                   and prize perks up to 100 000$
                 </Typography>
@@ -60,7 +60,7 @@ export const PrizesContainer: FC = () => (
             <header className={styles.info__header}>
               <div className={styles.info__logos}>
                 <i className={styles.info__logo}></i>
-                <Typography variant={14}>Green stage</Typography>
+                <Typography variant="20_26">Green stage</Typography>
               </div>
               <div>
                 <Badge variant={2}>85% discount </Badge>
@@ -69,7 +69,7 @@ export const PrizesContainer: FC = () => (
 
             <div className={styles.clock}>
               <header className={styles.clock__title}>
-                <Typography variant={13} upper={true}>
+                <Typography variant="13_16" upper={true}>
                   Stage ends in
                 </Typography>
               </header>

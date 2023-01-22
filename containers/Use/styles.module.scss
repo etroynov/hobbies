@@ -1,1 +1,5 @@
-.container {}
+.container {
+  &__header {
+    margin-bottom: 64px;
+  }
+}

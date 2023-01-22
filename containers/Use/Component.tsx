@@ -6,10 +6,13 @@ import styles from './styles.module.scss';
 export const UseContainer: FC = () => (
   <Block>
     <div className="container">
-      <header>
-        <Typography variant={9}>How can I use <br /> Chobby</Typography>
+      <header className={styles.container__header}>
+        <Typography variant="92_96">How can I use <br /> Chobby</Typography>
       </header>
+
+      <div>
+        <img src="/assets/img/cards_1.png" width="100%" alt="" />
+      </div>
     </div>
   </Block>
-  
 );

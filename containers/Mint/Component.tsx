@@ -8,7 +8,7 @@ export const MintContainer: FC = () => (
     <div className="container">
       <header className={styles.container__header}>
         <div className={styles.fix}>
-          <Typography variant={9}>
+          <Typography variant="92_96">
             How to mint one Chobby
           </Typography>
         </div>
@@ -20,7 +20,7 @@ export const MintContainer: FC = () => (
       <div className={styles.info}>
         <header className={styles.info__header}>
           <Typography>To mint your <br /> how you need</Typography>
-          <Typography variant={13} className={styles.info__text}>Each Choby has 1000 CHO inside and there are perks that will reduce lockup, vesting period, provide <br /> cashback, bring you a prize or increase royalty in future releases in 20% of NFTs.</Typography>
+          <Typography variant="13_16" className={styles.info__text}>Each Choby has 1000 CHO inside and there are perks that will reduce lockup, vesting period, provide <br /> cashback, bring you a prize or increase royalty in future releases in 20% of NFTs.</Typography>
         </header>
       </div>
 

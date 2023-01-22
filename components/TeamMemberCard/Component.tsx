@@ -28,11 +28,11 @@ export const TeamMemberCard: FC<Props> = ({
       />
     </div>
     <header className={styles.header}>
-      <Typography tag="h2" variant={4}>
+      <Typography tag="h2" variant="28_36">
         {title}
       </Typography>
     </header>
-    <Typography tag="div" variant={2}>
+    <Typography tag="div" variant="16_24">
       {children}
     </Typography>
   </div>

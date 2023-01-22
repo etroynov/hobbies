@@ -17,38 +17,38 @@ export const StatsContainer = () => (
           <Card size="xxl">
             <ul className={styles.list}>
               <li className="list__item">
-                <Typography variant={8}>$1B</Typography>
-                <Typography variant={2} className={styles.list__text}>
+                <Typography variant="38_48">$1B</Typography>
+                <Typography variant="16_24" className={styles.list__text}>
                   Market cap of total
                 </Typography>
               </li>
               <li className="list__item">
-                <Typography variant={8}>$112M</Typography>
-                <Typography variant={2} className={styles.list__text}>
+                <Typography variant="38_48">$112M</Typography>
+                <Typography variant="16_24" className={styles.list__text}>
                   Market cap of issued
                 </Typography>
               </li>
               <li className="list__item">
-                <Typography variant={8}>$0.9</Typography>
-                <Typography variant={2} className={styles.list__text}>
+                <Typography variant="38_48">$0.9</Typography>
+                <Typography variant="16_24" className={styles.list__text}>
                   Current price
                 </Typography>
               </li>
               <li className="list__item">
-                <Typography variant={8}>$1B</Typography>
-                <Typography variant={2} className={styles.list__text}>
+                <Typography variant="38_48">$1B</Typography>
+                <Typography variant="16_24" className={styles.list__text}>
                   Total supply
                 </Typography>
               </li>
               <li className="list__item">
-                <Typography variant={8}>$0.2</Typography>
-                <Typography variant={2} className={styles.list__text}>
+                <Typography variant="38_48">$0.2</Typography>
+                <Typography variant="16_24" className={styles.list__text}>
                   IDO price
                 </Typography>
               </li>
               <li className="list__item">
                 <Typography variant={8}>$40M+</Typography>
-                <Typography variant={2} className={styles.list__text}>
+                <Typography variant="16_24" className={styles.list__text}>
                   Volume 90d
                 </Typography>
               </li>
@@ -113,10 +113,14 @@ export const StatsContainer = () => (
         <div className={styles.block2}>
           <Card size="m">
             <div className={styles.block2__item}>
-              <Typography tag="h3" variant={4} className={styles.list2__legend}>
+              <Typography
+                tag="h3"
+                variant="28_36"
+                className={styles.list2__legend}
+              >
                 What is CHO
               </Typography>
-              <ul className={styles.list_2}>
+              <ul className={styles.list2}>
                 <li>A native token of Choise.com</li>
                 <li>The initial CHO token offering kicked off in June 2022</li>
                 <li>
@@ -131,7 +135,11 @@ export const StatsContainer = () => (
             </div>
 
             <div className={styles.block2__item}>
-              <Typography tag="h3" variant={4} className={styles.list2__legend}>
+              <Typography
+                tag="h3"
+                variant="28_36"
+                className={styles.list2__legend}
+              >
                 Why it is unique
               </Typography>
               <ul className={styles.list2}>
@@ -148,7 +156,11 @@ export const StatsContainer = () => (
             </div>
 
             <div className={styles.block2__item}>
-              <Typography tag="h3" variant={4} className={styles.list2__legend}>
+              <Typography
+                tag="h3"
+                variant="28_36"
+                className={styles.list2__legend}
+              >
                 Utilities:
               </Typography>
               <ul className={styles.list2}>
@@ -203,7 +215,11 @@ export const StatsContainer = () => (
             </div>
 
             <div className={styles.block2__item}>
-              <Typography tag="h3" variant={4} className={styles.list2__legend}>
+              <Typography
+                tag="h3"
+                variant="28_36"
+                className={styles.list2__legend}
+              >
                 Key Figures:
               </Typography>
               <ul className={styles.list2}>

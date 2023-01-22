@@ -4,7 +4,18 @@ import styles from "./styles.module.scss";
 
 type Props = {
   tag?: "div" | "p" | "span" | "h1" | "h2" | "h3";
-  variant?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15;
+  color?: 1 | 2 | 3 | 4;
+  variant?:
+    | "48_60"
+    | "13_16"
+    | "14_20"
+    | "16_24"
+    | "20_26"
+    | "24_32"
+    | "28_36"
+    | "38_48"
+    | "92_96"
+    | "96_120";
   bold?: boolean;
   upper?: boolean;
   children: ReactNode;
@@ -13,17 +24,24 @@ type Props = {
 
 export const Typography: FC<Props> = ({
   tag = "div",
-  variant = 1,
+  variant = "48_60",
+  color,
   bold,
   children,
   className,
   upper = false,
 }) => {
   const Tag = tag;
-  const cn = cx(styles.component, styles[`variant-${variant}`], {
-    [styles.bold]: bold,
-    [styles.upper]: upper
-  }, className);
+  const cn = cx(
+    styles.component,
+    styles[`variant-${variant}`],
+    styles[`color-${color}`],
+    {
+      [styles.bold]: bold,
+      [styles.upper]: upper,
+    },
+    className
+  );
 
   return <Tag className={cn}>{children}</Tag>;
 };

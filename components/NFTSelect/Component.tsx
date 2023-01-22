@@ -9,7 +9,7 @@ export const NFTSelect: FC = () => (
     <div className={styles.options}>
       <div className={styles.options__item1}>
         <div>
-          <Typography variant={2} upper>
+          <Typography variant="16_24" upper>
             Minting <br /> 1 NFT + 1000 cho
           </Typography>
         </div>
@@ -18,16 +18,16 @@ export const NFTSelect: FC = () => (
           <Typography variant={15} bold={true}>
             $150
           </Typography>
-          <Typography variant={13}>price $0.15</Typography>
+          <Typography variant="13_16">price $0.15</Typography>
         </div>
       </div>
 
       <div className={styles.options__item2}>
         <div>
-          <Typography variant={2} upper>
+          <Typography variant="16_24" upper>
             Market price
           </Typography>
-          <Typography upper variant={13} className={styles.textSelected}>
+          <Typography upper variant="13_16" className={styles.textSelected}>
             1000 cho
           </Typography>
         </div>
@@ -36,7 +36,7 @@ export const NFTSelect: FC = () => (
           <Typography variant={15} bold={true}>
             $940
           </Typography>
-          <Typography variant={13} className={styles.textSelected}>
+          <Typography variant="13_16" className={styles.textSelected}>
             price $0.94
           </Typography>
         </div>
@@ -69,12 +69,12 @@ export const NFTSelect: FC = () => (
 
     <div className={styles.video}>
       <img src="/assets/img/youtube.svg" />
-      <Typography variant={2}>How to mint Chow?</Typography>
+      <Typography variant="16_24">How to mint Chow?</Typography>
     </div>
 
     <footer className={styles.component__footer}>
       <div className={styles.footer__title}>
-        <Typography variant={3} className={styles.footer__text}>
+        <Typography variant="14_20" className={styles.footer__text}>
           Collected for now
         </Typography>
         <Typography variant={12}>$21,524,244</Typography>

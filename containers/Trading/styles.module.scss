@@ -1,0 +1,46 @@
+.container {
+  &__header {
+    margin-bottom: 34px;
+  }
+}
+
+.card {
+  gap: 57px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.info {
+  display: grid;
+  gap: 16px;
+}
+
+.block__1 {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.controls {
+  display: flex;
+  gap: 44px;
+  margin-top: 45px;
+  padding-top: 16px;
+
+  &__item {
+    display: grid;
+    gap: 16px;
+  }
+
+  &__list {
+    display: grid;
+    gap: 8px;
+    border: 1px solid #32353B;
+    padding: 12px;
+    border-radius: 24px;
+  }
+}
